@@ -11,8 +11,8 @@ function App() {
     <Routes>
       <Route path="/zwport/" element={<Layout />}>
       <Route index element={<Home />}></Route>
-      <Route path="about" element={<About />}></Route>
-      <Route path="contact" element={<Contact />}></Route>
+      <Route path="zwport/about" element={<About />}></Route>
+      <Route path="zwport/contact" element={<Contact />}></Route>
       </Route>
     </Routes>
     </>
